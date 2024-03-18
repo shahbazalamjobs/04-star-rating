@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-rating {
+  font-size: 40px;
+  /* Adjust the size of stars */
+}
+
+.star-rating span {
+  cursor: pointer;
+}
+
+.star-rating span:hover {
+  color: gold;
+}
+
+.star-rating .selected {
+  color: gold;
+}
+
+.star-rating .hover {
+  color: gold;
+}
